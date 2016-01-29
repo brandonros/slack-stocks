@@ -1,0 +1,14 @@
+{
+	"from": "github",
+	"password": "github",
+	"jobs": [{
+		"symbol": "XIV",
+		"backlog": 90,
+		"triggers": [{
+			"email": "github",
+			"subject": "Stock alert",
+			"rule": "price <= 18.30"
+		}],
+		"delay": 60000
+	}]
+}
